@@ -2,6 +2,7 @@ package API.jira;
 
 import org.junit.Assert;
 
+import Payloads.CoursePaylod;
 import Payloads.PlacePayload;
 import io.restassured.path.json.JsonPath;
 
@@ -9,7 +10,7 @@ public class Courses {
 
 	public static void main(String[] args)
 	{
-		JsonPath js=new JsonPath(PlacePayload.courses());
+		JsonPath js=new JsonPath(CoursePaylod.courses());
 		//Print No of courses returned by API
 	    int courseCount=js.getInt("courses.size()");
 	    System.out.println(courseCount);
