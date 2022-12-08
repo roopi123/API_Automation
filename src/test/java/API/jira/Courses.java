@@ -20,6 +20,7 @@ public class Courses {
 	    //Print Title of the first course
 	    String Firsttitle=js.getString("courses[0].title");
 	    System.out.println(Firsttitle);
+	    System.out.println("");
 	    //Print All course titles and their respective Prices
 	    for(int i=0;i<courseCount;i++)
 	    {
