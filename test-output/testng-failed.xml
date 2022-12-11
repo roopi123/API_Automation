@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="API.jira.Library">
+      <class name="API.jira.Oauth">
         <methods>
-          <include name="AddLibrary"/>
+          <include name="oauth"/>
         </methods>
-      </class> <!-- API.jira.Library -->
+      </class> <!-- API.jira.Oauth -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
